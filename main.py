@@ -20,8 +20,6 @@ else:
             if dict["name"].isalpha() == True:
                 print(f"{dict["name"]}: {dict["num"]}")
         print("============= END ===============")
-        #print(char_dict)
-        #print(sorted_dict)
 
     def get_book_text(path):
         with open(path) as f:
